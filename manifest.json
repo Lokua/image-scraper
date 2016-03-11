@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "ImageScraper",
+  "description": "My first Chrome Extension",
+  "version": "0.0.1",
+  "author": "Joshua Kleckner <lokua@lokua.net>",
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "https://ajax.googleapis.com/"
+  ]
+}

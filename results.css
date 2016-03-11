@@ -1,0 +1,15 @@
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  flex-basis: 15%;
+  margin: 16px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}

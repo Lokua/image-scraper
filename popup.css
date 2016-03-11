@@ -1,0 +1,7 @@
+button {
+  background: transparent;
+  color: rebeccapurple;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
