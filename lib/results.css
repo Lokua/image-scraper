@@ -4,12 +4,23 @@
   justify-content: center;
 }
 
+.images-container h2 {
+  flex-basis: 100%;
+  text-align: center;
+}
+
 .image-container {
   flex-basis: 15%;
   margin: 16px;
 }
 
+.image-container small {
+  display: block;
+  text-align: center;
+}
+
 .image-container img {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
   width: 100%;
   height: auto;
 }
